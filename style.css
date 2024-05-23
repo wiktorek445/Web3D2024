@@ -1,0 +1,120 @@
+/* Font stuff */
+@font-face {
+  font-family: "Inter";
+  src: url("assets/fonts/Inter/static/Inter-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "cocaColaFont";
+  src: url("assets/fonts/loki_cola/LOKICOLA.TTF") format("truetype");
+}
+/* Custom CSS for the footer */
+.footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.logo {
+  margin-top: 3px;
+}
+.logo h1 {
+  font-family: cocaColaFont;
+  font-size: 31px;
+  margin: 0;
+  margin-top: -10px;
+  margin-bottom: -15px;
+  float: left;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 2px;
+}
+.logo h2 {
+  font-family: cocaColaFont;
+  font-size: 31px;
+  margin-top: -6px;
+  margin-bottom: -15px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 3px;
+  float: left;
+}
+.logo h3 {
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: -5px;
+  padding-top: 0px;
+  padding-left: 0px;
+  float: left;
+}
+.logo p {
+  font-size: 7px;
+  margin-top: 22px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-left: 3px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #d3d3d3;
+}
+/* Custom CSS for the container */
+.square_container {
+  min-height: 0vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Custom CSS for the squares */
+.square {
+  padding: 8rem;
+  background-color: rgb(85, 85, 85);
+  border: 0px solid #ffffff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  border-radius: 20px;
+}
+
+.text-center {
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.square-image {
+  width: 100%; /* Adjust the width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow */
+  transition: transform 0.3s ease; /* transition effect */
+}
+
+.square-image:hover {
+  transform: scale(1.1); /* Scale image on hover */
+}
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-title {
+  color: #555;
+}
+
+.container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}

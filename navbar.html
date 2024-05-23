@@ -1,0 +1,50 @@
+<link rel="stylesheet" href="style.css" />
+<nav class="navbar sticky-top navbar-expand-sm bg-dark navbar-dark">
+  <div class="logo">
+    <a class="navbar-brand" href="index.html">
+      <h1>1</h1>
+      <h1>oca</h1>
+      <h2>Cola</h2>
+      <h3>Journey</h3>
+      <p>Refreshing the world, one story at a time</p>
+    </a>
+  </div>
+
+  <!--Collapsable menu icon-->
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target=".navbar-collapse"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Right-aligned navigation items -->
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" id="home-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="about-link" href="about.html">About</a>
+      </li>
+      <!--Dropdown-->
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="navbardrop"
+          data-toggle="dropdown"
+          >Cans</a
+        >
+        <div class="dropdown-menu dropdown-menu-right">
+          <a class="dropdown-item" href="models.html">Coca Cola</a>
+          <a class="dropdown-item" href="models.html">Sprite</a>
+          <a class="dropdown-item" href="models.html">Dr Pepper</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
